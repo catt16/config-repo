@@ -6,9 +6,9 @@
 spring:
   profiles: dev
   application:
-    name: ms dev
+    name: microservice dev
 ---
 spring:
-  profiles: dev
+  profiles: test
   application:
-    name: ms test
+    name: microservice test
