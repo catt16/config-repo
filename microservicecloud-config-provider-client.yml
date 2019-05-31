@@ -11,14 +11,13 @@ spring:
    application: 
     name: microservicecloud-config-provider-client
    
-eureka: 
-  instance:
-    hostname: eureka7001.com #eureka server instance
-  client: 
+eureka:
+  client: #客户端注册进eureka服务列表内
     register-with-eureka: false     
     fetch-registry: false     
-    service-url: 
-      defaultZone: http://eureka7001.com:7001/eureka/
+    service-url:
+       defaultZone: http://eureka7001.com:7001/eureka/ 
+  
   instance:
     instance-id: microservice-provider-8001
     prefer-ip-address: true     #访问路径可以显示IP地址     
