@@ -13,12 +13,12 @@ spring:
 
 eureka: 
   instance:
-    hostname: ec2-52-221-197-195.ap-southeast-1.compute.amazonaws.com #eureka server instance
+    hostname: ec2-13-250-34-5.ap-southeast-1.compute.amazonaws.com #eureka server instance
   client: 
     register-with-eureka: false     
     fetch-registry: false     
     service-url: 
-      defaultZone: http://ec2-52-221-197-195.ap-southeast-1.compute.amazonaws.com:37001/eureka/
+      defaultZone: http://ec2-13-250-34-5.ap-southeast-1.compute.amazonaws.com:37002/eureka/
 ---
 server:
    port: 7001
@@ -30,9 +30,9 @@ spring:
 
 eureka: 
   instance:
-    hostname: ec2-52-221-197-195.ap-southeast-1.compute.amazonaws.com #eureka server instance
+    hostname: ec2-13-250-34-5.ap-southeast-1.compute.amazonaws.com #eureka server instance
   client: 
     register-with-eureka: false     
     fetch-registry: false     
     service-url: 
-      defaultZone: http://ec2-52-221-197-195.ap-southeast-1.compute.amazonaws.com:37001/eureka/
+      defaultZone: http://ec2-13-250-34-5.ap-southeast-1.compute.amazonaws.com:37002/eureka/
